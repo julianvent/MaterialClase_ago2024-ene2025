@@ -5,7 +5,6 @@ int main()
 {
     double weight;
     double height;
-    double BMI;
 
     std::cout << "--- Calculadora de IMC ---\n";
     std::cout << "Ingresa tu peso en kg: ";
@@ -14,7 +13,7 @@ int main()
     std::cout << "Ingresa tu estatura en metros: ";
     std::cin >> height;
 
-    BMI = weight / pow(height, 2);
+    double BMI {weight / pow(height, 2)};
 
     std::cout << "\n-- Resultados --\n";
     std::cout << "IMC: " << BMI << '\n';

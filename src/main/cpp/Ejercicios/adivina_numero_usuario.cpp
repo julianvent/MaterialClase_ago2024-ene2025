@@ -3,13 +3,12 @@
 int main()
 {
     srand(time(NULL));  // genera una semilla a partir del tiempo del sistema
-    int randomNumber;
+    int randomNumber {rand() % 100 + 1};
     int userGuessNumber;
-    int numberOfGuesses = 0;
+    int numberOfGuesses {0} ;
 
     std::cout << "== Adivina el numero! ==\n";
     std::cout << "Cual es el numero? Ingresa tu numero del 1-100:\n";
-    randomNumber = rand() % 100 + 1;
 
     do {
         std::cin >> userGuessNumber;
