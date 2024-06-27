@@ -17,7 +17,7 @@ int main()
 
     std::cout << "\n-- Resultados --\n";
     std::cout << "IMC: " << BMI << '\n';
-    std::cout << "Clasificacion: ";
+    std::cout << "Evaluacion: ";
 
     if (BMI < 18.5)
         std::cout << "Bajo peso";
