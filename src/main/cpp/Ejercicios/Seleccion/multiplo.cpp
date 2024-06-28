@@ -15,6 +15,6 @@ int main()
         std::cout << num1 << " es multiplo de " << num2;
     else
         std::cout << num1 << " no es multiplo de " << num2;
-        
+
     return 0;
 }
